@@ -1,0 +1,52 @@
+.
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── GXB
+│   │           └── GXBdemosite
+│   │               ├── config
+│   │               ├── constants
+│   │               ├── controller
+│   │               │   └── v1
+│   │               │       ├── api
+│   │               │       ├── command
+│   │               │       ├── request
+│   │               │       └── ui
+│   │               ├── dao
+│   │               │   └── impl
+│   │               ├── dto
+│   │               │   ├── mapper
+│   │               │   ├── model
+│   │               │   │   └── user
+│   │               │   └── response
+│   │               ├── exception
+│   │               ├── GxbDemoSiteApplication.java
+│   │               ├── model
+│   │               │   └── user
+│   │               ├── repository
+│   │               │   └── user
+│   │               │       ├── Role.java
+│   │               │       ├── User.java
+│   │               │       └── UserRoles.java
+│   │               ├── rest
+│   │               │   └── impl
+│   │               ├── security
+│   │               │   ├── api
+│   │               │   └── form
+│   │               ├── service
+│   │               │   └── impl
+│   │               ├── util
+│   │               └── validation
+│   │                   └── impl
+│   └── resources
+│       ├── application.properties
+│       ├── db
+│       │   └── migration
+│       ├── static
+│       └── templates
+└── test
+    └── java
+        └── com
+            └── GXB
+                └── GXBdemosite
+                    └── GxbDemoSiteApplicationTests.java
